@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+
+# data
+2011_09_26_calib/
+data/
+*.txt
