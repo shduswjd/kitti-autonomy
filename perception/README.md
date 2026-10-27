@@ -11,7 +11,7 @@ python -m perception.lidar
 
 처리 순서:
 
-1. 관심 영역 추출: 전방 0~50m, 좌우 ±20m, 높이 -2.5~2m
+1. 관심 영역 추출: 전방 0-50m, 좌우 ±20m, 높이 -2.5-2m
 2. Voxel downsampling: 0.15m
 3. RANSAC 지면 제거: 평면 거리 기준 0.2m
 4. DBSCAN 군집화: eps 0.6m, 최소 점 10개
